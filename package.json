@@ -1,0 +1,15 @@
+{
+    "name": "npm-run-pattern",
+    "version": "0.0.1",
+    "description": "Run all package.json scripts that matches a regex pattern",
+    "main": "npm-run-pattern.cjs",
+    "license": "MIT",
+    "private": false,
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Henrik Hofmeister <henrik.hofmeister@kapeta.com>",
+    "bin": {
+        "npm-run-pattern": "bin/npm-run-pattern"
+    }
+}
