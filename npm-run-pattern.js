@@ -23,7 +23,7 @@ console.log('Running scripts:');
 console.log('\t - ' + matchingScripts.join('\n\t - '));
 
 matchingScripts.forEach((scriptName) => {
-    const ret = spawnSync('npm', ['run', scriptName], { stdio: 'inherit' });
+    const res = spawnSync('npm', ['run', scriptName], { stdio: 'inherit' });
     if (res.status !== 0) {
         process.exit(res.status);
     }
