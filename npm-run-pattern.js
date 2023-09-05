@@ -16,7 +16,7 @@ const matchingScripts = Object.keys(scripts).filter((scriptName) => regex.test(s
 
 if (matchingScripts.length === 0) {
     console.error(`No scripts found matching ${pattern}`);
-    process.exit(1);
+    process.exit(0);
 }
 
 console.log('Running scripts:');
